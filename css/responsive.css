@@ -1,0 +1,23 @@
+@media (max-width: 375px){
+  header .menuicon{
+    display: block;
+  }
+
+  header .links{
+    display: none;
+    background-color: red;
+  }
+
+  header .links a {
+    display: block;
+    background-color: red;
+  }
+  header .menuicon:hover ~ .links{
+    display: block;
+    height: 250px;
+  }
+  header .links:hover{
+    display:block;
+    height: 250px;
+  }
+}

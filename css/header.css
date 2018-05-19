@@ -1,0 +1,38 @@
+header{
+  position: relative;
+  height: 80px;
+  background-color: lightblue;
+  text-align: center
+}
+
+header .logo{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+header .links {
+  line-height: 80px;
+}
+
+header .links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
+  letter-spacing: .1em;
+  color: white;
+}
+
+header .links a:hover{
+  color: grey;
+}
+
+header .menuicon{
+  display: none;
+  position: absolute;
+  top: 23px;
+  right: 10px;
+  color: white;
+  font-size: 1.7em;
+}
