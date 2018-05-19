@@ -34,3 +34,21 @@ h1{
   /* transform: translateX(-50%);
   z-index: 10; */
 }
+
+h2{
+  font-size: 6em;
+  letter-spacing: .1em;
+}
+
+h2 b{
+  color: grey;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h3 a{
+  color: blue;
+  text-decoration: none;
+}

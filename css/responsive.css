@@ -1,11 +1,24 @@
+@media (max-width: 700px){
+  .resume{
+    height: 120vh;
+  }
+}
+
 @media (max-width: 375px){
+  .resume{
+    height: 1000px;
+  }
   header .menuicon{
     display: block;
   }
 
   header .links{
     display: none;
+    width: 100%
     background-color: red;
+    position:absolute;
+    top:0;
+    left:0;
   }
 
   header .links a {
@@ -23,5 +36,21 @@
 
   .aboutme .content h1 {
     font-size: 5em;
+  }
+
+  .portfolio h2 {
+    font-size: 2em;
+  }
+
+  .portfolio h3 {
+    font-size: 1.5em;
+  }
+
+  .contact .content .email{
+    font-size: 2em;
+  }
+
+  .contact .content .socialbar{
+    font-size: .7em;
   }
 }
