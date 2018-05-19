@@ -24,3 +24,13 @@ body, p, h1, h2, h3, h4 {
 .logo.small{
   transform: scale(.5);
 }
+
+h1{
+  /* position: absolute; */
+  /* left: 50%; */
+  font-size: 7em;
+  text-transform: uppercase;
+  color: white;
+  /* transform: translateX(-50%);
+  z-index: 10; */
+}

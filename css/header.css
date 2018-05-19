@@ -2,7 +2,9 @@ header{
   position: relative;
   height: 80px;
   background-color: lightblue;
-  text-align: center
+  text-align: center;
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.4);
+  z-index: 2;
 }
 
 header .logo{

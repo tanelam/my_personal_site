@@ -20,4 +20,8 @@
     display:block;
     height: 250px;
   }
+
+  .aboutme .content h1 {
+    font-size: 5em;
+  }
 }
